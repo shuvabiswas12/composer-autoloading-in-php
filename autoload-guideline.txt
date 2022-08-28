@@ -1,0 +1,15 @@
+namespace should be same as the keys of psr-4 objects.
+
+for example if you write namespace like "namespace App\Models"
+than you should write inside psr-4 object like 
+
+psr-4 : {
+    "App/Models\\" : "\\src\\mdoels_1\\"
+}
+
+Here, "\\src\\mdoels_1\\" is the file path of your that specific file. 
+
+for example: "src\\mdoels_1\\Email.php".
+
+
+

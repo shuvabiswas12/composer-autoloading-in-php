@@ -1,0 +1,10 @@
+{
+    "name": "hp/autoload-in-php",
+    "autoload": {
+        "psr-4": {
+            "App\\Models\\": "\\src\\models\\",
+            "App\\Utils\\": "\\src\\models_2\\"
+        }
+    },
+    "require": {}
+}
